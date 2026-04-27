@@ -6,3 +6,6 @@ NAME=Dev
 
 SUM="$(($NUMBER1+$NUMBER2+$NAME))"
 echo "The sum is: $SUM"
+
+LEADERS=("Dev" "Priya" "Uday")
+echo "All Leaders are: ${LEADERS[@]}"
