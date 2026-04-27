@@ -2,6 +2,7 @@
 #everything in shell is conisdered as string
 NUMBER1=100
 NUMBER2=200
+NAME=Dev
 
-SUM="$(($NUMBER1+$NUMBER2))"
-echo "The sum of $NUMBER1 and $NUMBER2 is: $SUM"
+SUM="$(($NUMBER1+$NUMBER2+$NAME))"
+echo "The sum is: $SUM"
