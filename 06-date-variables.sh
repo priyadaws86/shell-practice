@@ -1,3 +1,11 @@
 #!/bin/bash
-DATE=$(date)
-echo "Today's date is: $DATE"
+#DATE=$(date)
+START_TIME=$(date +%s)
+
+SLEEP_TIME 10 &
+
+END_TIME=$(date +%s)
+
+TOTAL_TIME=$((END_TIME - START_TIME))  
+
+echo "Script Executed in: $TOTAL_TIME seconds"
