@@ -2,7 +2,7 @@
 #DATE=$(date)
 START_TIME=$(date +%s)
 
-SLEEP_TIME 10
+SLEEP 10
 
 END_TIME=$(date +%s)
 
