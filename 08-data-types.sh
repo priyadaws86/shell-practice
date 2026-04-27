@@ -9,3 +9,5 @@ echo "The sum is: $SUM"
 
 LEADERS=("Dev" "Priya" "Uday")
 echo "All Leaders are: ${LEADERS[@]}"
+echo "First Leader is: ${LEADERS[0]}"
+echo "Second Leader is: ${LEADERS[1]}"
