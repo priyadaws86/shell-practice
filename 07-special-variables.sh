@@ -10,3 +10,5 @@ echo "Who is running this: $USER"
 echo "The home directory of the user is: $HOME"
 echo "The current shell is: $SHELL"
 echo "The current date and time is: $(date)"
+sleep 50 &
+echo "process ID of the last background command is: $!"
