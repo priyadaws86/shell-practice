@@ -7,6 +7,8 @@ NAME=Dev
 SUM="$(($NUMBER1+$NUMBER2+$NAME))"
 echo "The sum is: $SUM"
 
+# size = 3, Max Index = 
+
 LEADERS=("Dev" "Priya" "Uday")
 echo "All Leaders are: ${LEADERS[@]}"
 echo "First Leader is: ${LEADERS[0]}"
